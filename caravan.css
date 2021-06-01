@@ -1,0 +1,49 @@
+.box-shadow{
+    box-shadow:  0 2px 4px rgba(0, 0, 0, o.5),
+                 0 4px 8px 0 rgb(0, 0, 0.5);
+
+
+}
+
+body{
+    padding-top: 75px;
+    
+}
+
+#home-quote{
+    width: 100%;
+    height: 500px;
+    background: url(img/background.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+
+
+ @media  screen and (min-width: 600px) {
+     #home-quote .display-4{
+         font-size: 2.5rem;
+     }
+ }
+
+ /* .pergunta{
+     border-bottom: 1px solid gray;
+ } */
+
+ #conta{
+     float: left;
+ }
+
+ .lista-plano li + li{
+    border-top: 1px  solid gray;
+ }
+
+ .lista-plano li{
+     padding: 8px;
+ }
+
+/* .right{
+    margin-left: 300px;
+} */
+.container{
+    width: 100%;
+}
